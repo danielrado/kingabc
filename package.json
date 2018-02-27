@@ -1,0 +1,30 @@
+{
+  "name": "kingabc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "webpack ./src/root.js ./bundle.js",
+    "watch": "webpack ./src/root.js ./bundle.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielrado/kingabc.git"
+  },
+  "author": "Daniel Rado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielrado/kingabc/issues"
+  },
+  "homepage": "https://github.com/danielrado/kingabc#readme",
+  "devDependencies": {
+    "webpack": "^4.0.1"
+  },
+  "dependencies": {
+    "flux": "^3.1.3",
+    "immutable": "^3.8.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
